@@ -1,1 +1,21 @@
-@import './styles/style.css';
+@import "./styles/style.css";
+
+main {
+  max-width: 1440px;
+  height: 98vh;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 768px) {
+  
+}
+

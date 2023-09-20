@@ -1,0 +1,40 @@
+.header {
+  padding: 21px 41px 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+.nav .navbar-brand {
+  margin-top: 10px;
+}
+
+.nav .navbar .navbar-nav {
+  display: flex;
+  gap: 2.15rem;
+  list-style: none;
+  font-size: 14px; 
+}
+
+.nav .navbar .navbar-nav .nav-item {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.nav .navbar .navbar-nav .nav-link {
+  text-decoration: none;
+  color: var(--medium-gray);
+}
+
+.btn {
+  border: 2px solid var(--medium-gray);
+  padding: 11px 20px;
+  border-radius: 12px;
+}
